@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:golden_apple"
+        },
+        "C": {
+            "item": "minecraft:chorus_fruit"
+        }
+    },
+    "result": {"id": "one_piece:suspicious_substance","count": 1}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "one_piece:item/rubber_pickaxe"
+  }
+}

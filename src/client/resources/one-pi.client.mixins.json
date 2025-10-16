@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "sheizo.onepiececlient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CustomArmorItemMixin",
+    "ExampleClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+
+  ]
+}

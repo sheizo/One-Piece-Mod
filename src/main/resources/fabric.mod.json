@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "one_piece",
+	"version": "${version}",
+	"name": "One piece",
+	"description": "The pirate king is about to awaken",
+	"authors": [
+		"Sheizo the Shitter"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/one_piece/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sheizo.onepiece.OnePieceInit"
+		],
+		"client": [
+			"sheizo.onepiececlient.OnePieceClientInit"
+		]
+	},
+	"mixins": [
+		"one-pi.mixins.json",
+		{
+			"config": "one-pi.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

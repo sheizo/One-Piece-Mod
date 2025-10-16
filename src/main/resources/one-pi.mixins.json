@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "sheizo.onepiece.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExampleMixin",
+    "PlayerMovementMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
